@@ -3,7 +3,7 @@ name: Docker Build and Push
 on:
   push:
     branches:
-      - master  # Trigger workflow only on pushes to the 'master' branch
+      - main  # Trigger workflow only on pushes to the 'master' branch
 
 jobs:
   build:
